@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+}
+
+#hero .button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#hero .button:hover {
+    background-color: #ff4c4c;
+}
+
+#adopt {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+#adopt h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.pet-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pet {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.pet img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pet h3 {
+    margin: 10px 0;
+}
+
+.pet p {
+    margin: 5px 0;
+}
+
+.pet button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pet button:hover {
+    background-color: #ff4c4c;
+}
+
+#about, #contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label, #contact input, #contact textarea {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+#contact input[type="submit"] {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #ff4c4c;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
